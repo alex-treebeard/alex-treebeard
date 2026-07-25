@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alex Remedios</title>
+<meta name="description" content="Alex Remedios — software engineer and AI researcher.">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #1a1610;
+    background: #ece5d1 url("assets/gray_marble.gif") repeat;
+    padding: 2em 2.5em;
+  }
+  main {
+    max-width: 34em;
+  }
+  h1 {
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 0 0 0.1em 0;
+  }
+  .tagline {
+    font-style: italic;
+    color: #3a3225;
+    margin: 0 0 1.8em 0;
+  }
+  a { color: #5a3a1a; }
+  a:visited { color: #6a2a4a; }
+  p { margin: 1em 0; }
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 1.5em 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11em, 1fr));
+    gap: 0.4em 1em;
+  }
+  .links li {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+  }
+  .links a {
+    text-decoration: none;
+    border-bottom: 1px dotted #8a6a3a;
+  }
+  .links a:hover { border-bottom-style: solid; }
+  .links .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: #d9c898;
+    border-top: 2px solid #f5ead0;
+    border-left: 2px solid #f5ead0;
+    border-right: 2px solid #4a3010;
+    border-bottom: 2px solid #4a3010;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    image-rendering: pixelated;
+  }
+  .links .icon svg {
+    width: 14px;
+    height: 14px;
+    fill: #2a1f10;
+    shape-rendering: crispEdges;
+  }
+  .links .icon .bg { fill: #d9c898; }
+  footer {
+    margin-top: 3em;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #6a5a3a;
+  }
+  .no-spam { display: none; }
+  @media (max-width: 480px) {
+    body { padding: 1em 1em; font-size: 17px; }
+    .links { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Alex Remedios</h1>
+<p class="tagline">Software engineer and AI researcher.</p>
+
+<p>I'm currently an Anthropic Fellow, doing control research on Claude Code.</p>
+
+<p>The rest of the time I'm at the UK AI Security Institute (AISI), working on evaluations of frontier AI systems, trying to figure out what LLMs can do. A lot of that work is using <em>inspect</em>, the open-source eval package which started there.</p>
+
+<p>Before AISI I ran a small consultancy called Treebeardtech, building and operating Kubernetes clusters for teams running ML applications. Our biggest project was scaling up COVID-19 admissions forecasting for NHS hospitals, it also led to me building LLM agent sandboxing tools for AISI.</p>
+
+<p>Prior to that I worked on Bayesian modelling applications at Improbable, Prime Video backend services at Amazon, and a Fable game at Lionhead Studios.</p>
+
+<p>I live in London. Outside of work I enjoy hiking, playing board games, and learning French.</p>
+
+<p>Find me elsewhere:</p>
+<ul class="links">
+  <li>
+    <span class="icon" aria-hidden="true">
+      <svg viewBox="0 0 12 12">
+        <!-- cat ears + face (GitHub) -->
+        <polygon points="1,1 1,5 4,5"/>
+        <polygon points="11,1 11,5 8,5"/>
+        <rect x="1" y="5" width="10" height="6"/>
+        <rect x="3" y="7" width="1" height="1" class="bg"/>
+        <rect x="8" y="7" width="1" height="1" class="bg"/>
+        <rect x="5" y="9" width="2" height="1" class="bg"/>
+      </svg>
+    </span>
+    <a href="https://github.com/alex-remedios">GitHub</a>
+  </li>
+  <li>
+    <span class="icon" aria-hidden="true">
+      <svg viewBox="0 0 12 12">
+        <!-- smiley face (Hugging Face) -->
+        <rect x="3" y="0" width="6" height="1"/>
+        <rect x="1" y="1" width="2" height="1"/><rect x="9" y="1" width="2" height="1"/>
+        <rect x="1" y="2" width="1" height="1"/><rect x="10" y="2" width="1" height="1"/>
+        <rect x="0" y="3" width="1" height="6"/><rect x="11" y="3" width="1" height="6"/>
+        <rect x="3" y="3" width="1" height="2"/><rect x="8" y="3" width="1" height="2"/>
+        <rect x="1" y="9" width="1" height="1"/><rect x="10" y="9" width="1" height="1"/>
+        <rect x="2" y="7" width="1" height="1"/><rect x="9" y="7" width="1" height="1"/>
+        <rect x="3" y="8" width="1" height="1"/><rect x="8" y="8" width="1" height="1"/>
+        <rect x="4" y="9" width="4" height="1"/>
+        <rect x="1" y="10" width="2" height="1"/><rect x="9" y="10" width="2" height="1"/>
+        <rect x="3" y="11" width="6" height="1"/>
+      </svg>
+    </span>
+    <a href="https://huggingface.co/alex-remedios">Hugging Face</a>
+  </li>
+  <li>
+    <span class="icon" aria-hidden="true">
+      <svg viewBox="0 0 12 12">
+        <!-- chunky X -->
+        <polygon points="0,0 2,0 12,10 12,12 10,12 0,2"/>
+        <polygon points="10,0 12,0 12,2 2,12 0,12 0,10"/>
+      </svg>
+    </span>
+    <a href="https://x.com/AlexRemedios1">X / Twitter</a>
+  </li>
+  <li>
+    <span class="icon" aria-hidden="true">
+      <svg viewBox="0 0 12 12">
+        <!-- "in" badge (LinkedIn) -->
+        <rect x="0" y="0" width="12" height="12"/>
+        <!-- i -->
+        <rect x="2" y="3" width="2" height="2" class="bg"/>
+        <rect x="2" y="6" width="2" height="4" class="bg"/>
+        <!-- n -->
+        <rect x="6" y="6" width="2" height="4" class="bg"/>
+        <rect x="8" y="6" width="2" height="1" class="bg"/>
+        <rect x="9" y="6" width="1" height="4" class="bg"/>
+      </svg>
+    </span>
+    <a href="https://www.linkedin.com/in/alex-remedios/">LinkedIn</a>
+  </li>
+  <li>
+    <span class="icon" aria-hidden="true">
+      <svg viewBox="0 0 12 12">
+        <!-- mortarboard (Scholar) -->
+        <polygon points="6,1 11,4 6,7 1,4"/>
+        <rect x="3" y="7" width="6" height="1"/>
+        <polygon points="3,8 9,8 8,10 4,10"/>
+        <rect x="10" y="4" width="1" height="4"/>
+        <rect x="9" y="8" width="2" height="1"/>
+      </svg>
+    </span>
+    <a href="https://scholar.google.com/citations?user=XcNa1XsAAAAJ&amp;hl=en">Scholar</a>
+  </li>
+  <li>
+    <span class="icon" aria-hidden="true">
+      <svg viewBox="0 0 12 12">
+        <!-- envelope -->
+        <rect x="0" y="2" width="12" height="1"/>
+        <rect x="0" y="9" width="12" height="1"/>
+        <rect x="0" y="2" width="1" height="8"/>
+        <rect x="11" y="2" width="1" height="8"/>
+        <rect x="1" y="3" width="1" height="1"/><rect x="10" y="3" width="1" height="1"/>
+        <rect x="2" y="4" width="1" height="1"/><rect x="9" y="4" width="1" height="1"/>
+        <rect x="3" y="5" width="1" height="1"/><rect x="8" y="5" width="1" height="1"/>
+        <rect x="4" y="6" width="1" height="1"/><rect x="7" y="6" width="1" height="1"/>
+        <rect x="5" y="7" width="2" height="1"/>
+      </svg>
+    </span>
+    <a href="mailto:&#97;&#108;&#101;&#120;&#46;&#106;&#46;&#114;&#101;&#109;&#101;&#100;&#105;&#111;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#97;&#108;&#101;&#120;<span class="no-spam">.nospam</span>&#46;&#106;&#46;&#114;&#101;&#109;&#101;&#100;&#105;&#111;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+  </li>
+</ul>
+
+<footer>
+  Last updated June 2026.
+</footer>
+
+</main>
+</body>
+</html>
